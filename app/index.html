@@ -8,6 +8,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/index.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+      .cap-first {
+        text-transform:capitalize;
+      }
+      
+      .width-4 {
+        width:4rem;
+      }
+      
+      .show-users {
+        display:flex;
+      }
+      
+      .hide-users {
+        display:none;
+      }
+      
+      .fadeOut {
+        animation:fader 4s ease forwards;
+        position:absolute;
+        top:3rem;
+        left:10rem;
+      }
+
+      @keyframes fader {
+        from {opacity:1;transform:scale(1.5);}
+  
+        to {opacity:0;transform:scale(1);}
+      }
+    </style>
   </head>
   <body>
     
